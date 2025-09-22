@@ -1104,16 +1104,6 @@ flowchart TB
 
 ---
 
-## Submission Checklist
-
-* Repo includes: `scripts/`, `configs/`, `requirements/`, `README.md`, `LICENSE`.
-* Minimal `data/` and a curated subset of `out/`.
-* Verify Phase-1 → Phase-2 mini → Phase-3 (Anime + Cinematic) → Eval on the target machine using the exact commands above.
-* Confirm `report/phase3_eval_advanced/phase3_metrics_advanced.csv` exists.
-* **Ablations artifacts present** (CSV + summary, and plot if generated).
-
----
-
 ## License & Citation
 
 * **Code:** MIT (see `LICENSE`).
@@ -1127,6 +1117,9 @@ title: "Neural Style Transfer (NST) — Baseline + Stylizers"
 authors:
   - family-names: "Shafi"
     given-names: "Umar"
+version: "1.0.0"
+date-released: "2025-09-22"
+repository-code: "https://github.com/Umar1Shafi/nst-project"
 license: "MIT"
 ```
 
