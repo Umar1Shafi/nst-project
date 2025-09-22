@@ -477,67 +477,7 @@ python scripts\exp\breadth_compare.py ^
   --out_dir report\breadth ^
   --make_grid 1 --make_table 1 --lpips 1
 
-
-
-
-
-
-
-
-
-Got you. Here’s a **clear, copy-paste patch** for your README that fully covers:
-
-* **Problem 3:** AdaIN/WCT baseline evidence (exact inputs, commands, outputs, what the metrics mean)
-* **Problem 5:** Tiny video NST (how to get/prepare a clip, the exact command, what each flag does, and what to submit)
-
-I’ll show **exact locations** and give you the **entire blocks** to paste.
-
----
-
-# 1) Table of Contents — add two entries
-
-**Where:** in your numbered TOC, right after “7. Phase 2 — Sweeps & Comparisons” and before “8. Phase 3 — Stylizers…”.
-
-**Paste:**
-
-```md
-7.5. [AdaIN/WCT Baselines — Evidence & Eval](#adainwct-baselines--evidence--eval)
-8.5. [Tiny Video NST (pass/fail “imaginative application”)](#tiny-video-nst-passfail-imaginative-application)
 ```
-
----
-
-# 2) Section for Problem 3 — put right after **“## Phase 2 — Sweeps & Comparisons”**
-
-**Where:** scroll to the end of the Phase-2 section; before the next major “## Phase 3 — …”, paste the block below.
-
-**Paste:**
-
-````md
-## AdaIN/WCT Baselines — Evidence & Eval
-
-**Why this exists.** The rubric asks for evidence of **alternative style-transfer methods**. We provide a small, reproducible comparison of **Gatys (our NST)** vs **AdaIN** vs **WCT** using images already in the repo — **no training required**.
-
-### What we compare
-- **Rows (methods):** Gatys (VGG), AdaIN (VGG16), WCT (VGG16).
-- **Columns (pairs):** **3 contents × 2 styles** (6 pairs total):
-  - **Contents:** `portrait2.jpg`, `city.jpg`, `Still_Life.jpg`
-  - **Styles:** `Monet.jpg`, `Ukiyo-e_print.jpg`
-- **Evidence:** one **6×3 composite** (three rows by methods; six columns by pairs) + a **metrics table**.
-
-### Inputs (already in the repo)
-- **AdaIN outputs:** `breadth/adain_vgg16/*`
-- **WCT outputs:** `breadth/wct_vgg16/*`
-- **Gatys outputs:** any Phase-1/2 results matching those contents/styles.
-  - If a Gatys image is missing for a pair, the script can generate a minimal one using `scripts/core/nst_hybrid_ready.py` (same defaults as Phase-1).
-
-### How to run
-```powershell
-# Builds the 6×3 grid + metrics table. LPIPS is optional but recommended.
-python scripts\exp\breadth_compare.py ^
-  --out_dir report\breadth ^
-  --make_grid 1 --make_table 1 --lpips 1
-````
 
 **Artifacts written:**
 
@@ -1164,16 +1104,6 @@ flowchart TB
 
 ---
 
-## Submission Checklist
-
-* Repo includes: `scripts/`, `configs/`, `requirements/`, `README.md`, `LICENSE`.
-* Minimal `data/` and a curated subset of `out/`.
-* Verify Phase-1 → Phase-2 mini → Phase-3 (Anime + Cinematic) → Eval on the target machine using the exact commands above.
-* Confirm `report/phase3_eval_advanced/phase3_metrics_advanced.csv` exists.
-* **Ablations artifacts present** (CSV + summary, and plot if generated).
-
----
-
 ## License & Citation
 
 * **Code:** MIT (see `LICENSE`).
@@ -1187,6 +1117,9 @@ title: "Neural Style Transfer (NST) — Baseline + Stylizers"
 authors:
   - family-names: "Shafi"
     given-names: "Umar"
+version: "1.0.0"
+date-released: "2025-09-22"
+repository-code: "https://github.com/Umar1Shafi/nst-project"
 license: "MIT"
 ```
 
