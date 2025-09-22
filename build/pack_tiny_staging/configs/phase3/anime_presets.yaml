@@ -1,0 +1,17 @@
+tasks:
+  - stylizer: anime
+    input: data/content/input.jpg
+    output: out/phase3/anime/A_faithful_s7890.png
+    args: --model primary --control auto --control-scale 0.85 --strength 0.65 --guidance 8.0 --steps 34 --seed 7890 --save-control
+  - stylizer: anime
+    input: data/content/input.jpg
+    output: out/phase3/anime/A_faithful_s1234.png
+    args: --model primary --control auto --control-scale 0.85 --strength 0.65 --guidance 8.0 --steps 34 --seed 1234 --save-control
+  - stylizer: anime
+    input: data/content/input.jpg
+    output: out/phase3/anime/B_stylized_s7890.png
+    args: --model primary --control auto --control-scale 0.85 --strength 0.70 --guidance 8.5 --steps 32 --seed 7890 --save-control
+  - stylizer: anime
+    input: data/content/input.jpg
+    output: out/phase3/anime/B_stylized_s1234.png
+    args: --model primary --control auto --control-scale 0.85 --strength 0.70 --guidance 8.5 --steps 32 --seed 1234 --save-control

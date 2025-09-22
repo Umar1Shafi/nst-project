@@ -1,0 +1,12 @@
+tasks:
+  # Portrait — Classic Noir
+  - stylizer: noir
+    input: data/content/portrait2.jpg
+    output: out/phase3/noir/out_noir_portrait_classic.png
+    args: --subject portrait --strength 0.18 --guidance 6.0 --steps 34 --noir-halation 0.20 --noir-bloom-sigma 1.9 --noir-bloom-thresh 0.80 --noir-vignette 0.12 --noir-dither 0.003 --noir-gamma 1.02 --noir-gain 1.01 --noir-lift 0.01 --seed 77
+
+  # Street — Classic Noir
+  - stylizer: noir
+    input: data/content/city.jpg
+    output: out/phase3/noir/out_noir_scene_classic.png
+    args: --subject scene --control canny --control-scale 0.62 --strength 0.74 --guidance 6.8 --steps 42 --noir-halation 0.16 --noir-bloom-sigma 1.7 --noir-bloom-thresh 0.88 --noir-vignette 0.15 --noir-dither 0.0035 --noir-gamma 1.02 --noir-gain 1.00 --noir-lift 0.01 --seed 77

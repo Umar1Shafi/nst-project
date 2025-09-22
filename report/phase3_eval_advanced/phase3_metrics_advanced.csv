@@ -1,0 +1,4 @@
+output,input,subject_guess,psnr,ssim,edge_iou,colorfulness,entropy,lpips,arcface_cos
+out\phase3\anime\portrait2_anime.png,data\content\portrait2.jpg,portrait,20.895,0.7393,0.5059,22.37,6.206,0.3083,
+out\phase3\anime\portrait2_anime_control.png,data\content\portrait2.jpg,portrait,2.667,0.2748,0.3553,0.0,4.2,0.6783,
+out\phase3\cinematic\street_cinematic.png,data\content\street.jpg,scene,11.56,0.2971,0.3106,103.73,7.351,0.6322,

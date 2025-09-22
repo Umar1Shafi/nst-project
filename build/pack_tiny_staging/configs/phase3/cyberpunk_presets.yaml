@@ -1,0 +1,12 @@
+tasks:
+  # portrait
+  - stylizer: cyberpunk
+    input: data/content/portrait2.jpg
+    output: out/phase3/cyberpunk/out_portrait_cyberpunk_finalBoost.png
+    args: --subject portrait --auto-mask-person --force-inpaint --control depth --control-scale 0.36 --style-image "scripts/plugins/cyberpunk/styles/neon_street_photo1.jpg,scripts/plugins/cyberpunk/styles/neon_street_photo2.jpg,scripts/plugins/cyberpunk/styles/neon_portrait_photo.jpg" --style-strength 0.50 --strength 0.21 --steps 44 --guidance 6.2 --edge-q 0.987 --skin-suppress 0.95 --skin-keep 0.25 --neon 0.40 --bloom 0.44 --rim-boost 0.42 --scanlines 0 --scheduler dpmpp --refine --refine-strength 0.14 --max-side 1024 --seed 101
+
+  # street
+  - stylizer: cyberpunk
+    input: data/content/city.jpg
+    output: out/phase3/cyberpunk/out_street_cyberpunk_8p5plus.png
+    args: --subject scene --force-inpaint --control canny --control-scale 0.42 --style-image "scripts/plugins/cyberpunk/styles/neon_street_photo1.jpg,scripts/plugins/cyberpunk/styles/neon_street_photo2.jpg" --style-strength 0.88 --strength 0.32 --steps 60 --guidance 6.8 --edge-q 0.930 --neon 0.90 --bloom 0.80 --rim-boost 0.62 --scanlines 0.10 --scheduler dpmpp --refine --refine-strength 0.20 --max-side 1280 --seed 77

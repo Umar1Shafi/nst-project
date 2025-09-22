@@ -1,0 +1,11 @@
+# Pull CPU wheels directly from PyTorch
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# PyTorch stack (CPU)
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# Everything else
+-r requirements-base.txt
+-r requirements-stylizers.txt

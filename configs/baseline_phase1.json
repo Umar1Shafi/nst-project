@@ -1,0 +1,17 @@
+{
+  "backbone": "vgg19",
+  "style_layers": "conv4_1,conv5_1",
+  "content_layer": "conv4_2",
+  "sizes": "384,768",
+  "steps": "300,400",
+  "opt": "lbfgs",
+  "style_weight": 20000,
+  "tv_weight": 0.0028,
+  "edge_w": 0.08,
+  "edge_face_down": 0.4,
+  "color_prematch_strength": 0.6,
+  "face_preserve_portrait": 0.95,
+  "face_preserve_generic": 0.75,
+  "seed": 123,
+  "device": "cuda"
+}

@@ -1,0 +1,12 @@
+tasks:
+  # Portrait (target 9/10)
+  - stylizer: cinematic
+    input: data/content/portrait2.jpg
+    output: out/phase3/cinematic/out_cinematic_portrait_v5.png
+    args: --subject portrait --steps 34 --guidance 6.2 --strength 0.24 --control-scale 0.30 --tone-mix 0.22 --bloom 0.22 --contrast 0.18 --saturation 1.06 --seed 77
+
+  # Scene (target 9+/10)
+  - stylizer: cinematic
+    input: data/content/city.jpg
+    output: out/phase3/cinematic/out_cinematic_scene_v5.png
+    args: --subject scene --steps 36 --guidance 6.6 --strength 0.40 --control-scale 0.50 --tone-mix 0.40 --bloom 0.42 --contrast 0.24 --saturation 1.06 --seed 77

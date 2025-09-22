@@ -1,0 +1,17 @@
+jobs:
+  - style: anime
+    input:  data/content/portrait2.jpg
+    output: out/phase3/anime/portrait2_anime_auto.png
+    variant: faithful
+
+  - style: cinematic
+    input:  data/content/street.jpg
+    output: out/phase3/cinematic/street_cinematic_auto.png
+
+  - style: cyberpunk
+    input:  data/content/city.jpg
+    output: out/phase3/cyberpunk/cp_city_auto.png
+
+  - style: noir
+    input:  data/content/street.jpg
+    output: out/phase3/noir/street_noir_auto.png

@@ -1,0 +1,98 @@
+{
+  "parts": [
+    {
+      "part_index": 1,
+      "zip_name": "out_part_01.zip",
+      "bytes": 244328217,
+      "files": 2872
+    },
+    {
+      "part_index": 2,
+      "zip_name": "out_part_02.zip",
+      "bytes": 244423094,
+      "files": 3873
+    },
+    {
+      "part_index": 3,
+      "zip_name": "out_part_03.zip",
+      "bytes": 244382809,
+      "files": 5796
+    },
+    {
+      "part_index": 4,
+      "zip_name": "out_part_04.zip",
+      "bytes": 244415968,
+      "files": 5959
+    },
+    {
+      "part_index": 5,
+      "zip_name": "out_part_05.zip",
+      "bytes": 232505,
+      "files": 8
+    }
+  ],
+  "totals": {
+    "files": 18508,
+    "images": 12398,
+    "finals": 3028,
+    "raw_phase2_imgs": 9000,
+    "paired_stems": 3000,
+    "finals_only_stems": 27,
+    "bytes_total": 977782593
+  },
+  "coverage": {
+    "content_counts_in_pairs": {
+      "portrait2": 1812,
+      "Still_Life": 396,
+      "animal": 396,
+      "city": 396
+    },
+    "style_counts_in_pairs": {
+      "Ukiyo-e_print": 1020,
+      "Matisse": 990,
+      "Monet": 990
+    },
+    "style_weight_values": [
+      14000,
+      15000,
+      17000,
+      20000,
+      24000,
+      28000
+    ],
+    "tv_weight_values": [
+      0.002,
+      0.0022,
+      0.0024,
+      0.0026,
+      0.0028,
+      0.003,
+      0.0032,
+      0.0034,
+      0.004
+    ],
+    "edge_values": [
+      0.04,
+      0.06,
+      0.08,
+      0.1,
+      0.12
+    ],
+    "face_preserve_values": [
+      0.65,
+      0.75,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "cpm_values": [
+      0.3,
+      0.6,
+      0.8
+    ],
+    "layers_values": [
+      "345",
+      "45"
+    ]
+  }
+}

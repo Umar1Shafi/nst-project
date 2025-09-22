@@ -1,0 +1,11 @@
+output,input,subject_guess,psnr,ssim,edge_iou,colorfulness,entropy,lpips,arcface_cos
+Extra\images\A_faithful_s1234.png,data\content\portrait2.jpg,portrait,20.198,0.7105,0.4613,21.96,6.056,0.3951,
+Extra\images\A_faithful_s7890.png,data\content\portrait2.jpg,portrait,21.155,0.7433,0.5041,22.05,6.247,0.3082,
+Extra\images\B_stylized_s1234.png,data\content\portrait2.jpg,portrait,17.873,0.6702,0.4587,27.73,6.255,0.4509,
+Extra\images\B_stylized_s7890.png,data\content\portrait2.jpg,portrait,17.974,0.6981,0.4986,27.24,6.139,0.3708,
+Extra\images\out_cinematic_portrait_v5.png,data\content\portrait2.jpg,portrait,19.836,0.8291,0.6962,40.27,6.087,0.4498,
+Extra\images\out_cinematic_scene_v5.png,data\content\street.jpg,scene,11.56,0.2971,0.3106,103.73,7.351,0.6322,
+Extra\images\out_noir_portrait.png,data\content\portrait2.jpg,portrait,25.815,0.8653,0.7048,1.4,6.211,0.2249,
+Extra\images\out_noir_scene.png,data\content\street.jpg,scene,11.902,0.1464,0.2413,2.25,7.278,0.5307,
+Extra\images\out_portrait_cyberpunk_finalBoost.png,data\content\portrait2.jpg,portrait,19.432,0.7111,0.3275,36.6,6.507,0.4905,
+Extra\images\out_street_cyberpunk_8p5plus.png,data\content\street.jpg,scene,16.633,0.4069,0.3264,51.45,7.168,0.4316,

@@ -1,0 +1,6 @@
+diffusers>=0.29
+transformers
+accelerate
+safetensors
+Pillow
+controlnet-aux

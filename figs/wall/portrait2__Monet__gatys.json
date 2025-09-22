@@ -1,0 +1,40 @@
+{
+  "content": "data\\content\\portrait2.jpg",
+  "style": "data\\style\\Monet.jpg",
+  "out": "figs\\wall\\portrait2__Monet__gatys.png",
+  "sizes": [
+    512,
+    768
+  ],
+  "steps": [
+    200,
+    300
+  ],
+  "backbone": "vgg19",
+  "content_layer": "conv4_2",
+  "style_layers": "conv4_1,conv5_1",
+  "content_layer_resolved": 21,
+  "style_layers_resolved": [
+    19,
+    28
+  ],
+  "style_weight": 20000.0,
+  "content_weight": 1.0,
+  "tv_weight": 0.0028,
+  "opt": "lbfgs",
+  "lr": 0.01,
+  "device": "cuda",
+  "face_mask_path": null,
+  "face_preserve": 0.0,
+  "color_prematch_strength": 0.0,
+  "seed": 77,
+  "init_path": null,
+  "edge_w": 0.0,
+  "edge_face_down": 0.5,
+  "runtime_sec": 93.97645163536072,
+  "stage_times_sec": [
+    21.922373056411743,
+    71.57521677017212
+  ],
+  "peak_vram_gb": 2.5513858795166016
+}

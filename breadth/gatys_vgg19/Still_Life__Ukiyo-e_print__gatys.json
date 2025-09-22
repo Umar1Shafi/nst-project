@@ -1,0 +1,40 @@
+{
+  "content": "data\\content\\Still_Life.jpg",
+  "style": "data\\style\\Ukiyo-e_print.jpg",
+  "out": "breadth\\gatys_vgg19\\Still_Life__Ukiyo-e_print__gatys.png",
+  "sizes": [
+    384,
+    512
+  ],
+  "steps": [
+    200,
+    250
+  ],
+  "backbone": "vgg19",
+  "content_layer": "conv4_2",
+  "style_layers": "conv4_1,conv5_1",
+  "content_layer_resolved": 21,
+  "style_layers_resolved": [
+    19,
+    28
+  ],
+  "style_weight": 20000.0,
+  "content_weight": 1.0,
+  "tv_weight": 0.0028,
+  "opt": "lbfgs",
+  "lr": 0.01,
+  "device": "cuda",
+  "face_mask_path": null,
+  "face_preserve": 0.65,
+  "color_prematch_strength": 0.6,
+  "seed": 123,
+  "init_path": null,
+  "edge_w": 0.08,
+  "edge_face_down": 0.4,
+  "runtime_sec": 42.78880953788757,
+  "stage_times_sec": [
+    14.276582717895508,
+    28.13082504272461
+  ],
+  "peak_vram_gb": 1.2202200889587402
+}

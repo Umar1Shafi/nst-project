@@ -1,0 +1,40 @@
+{
+  "content": "data\\content\\portrait2.jpg",
+  "style": "data\\style\\Matisse.jpg",
+  "out": "figs\\wall\\portrait2__Matisse__hybrid.png",
+  "sizes": [
+    512,
+    768
+  ],
+  "steps": [
+    200,
+    300
+  ],
+  "backbone": "vgg19",
+  "content_layer": "conv4_2",
+  "style_layers": "layers45",
+  "content_layer_resolved": 21,
+  "style_layers_resolved": [
+    19,
+    28
+  ],
+  "style_weight": 17000.0,
+  "content_weight": 1.0,
+  "tv_weight": 0.003,
+  "opt": "lbfgs",
+  "lr": 0.01,
+  "device": "cuda",
+  "face_mask_path": null,
+  "face_preserve": 0.75,
+  "color_prematch_strength": 0.6,
+  "seed": 77,
+  "init_path": null,
+  "edge_w": 0.08,
+  "edge_face_down": 0.5,
+  "runtime_sec": 116.98688268661499,
+  "stage_times_sec": [
+    34.141677379608154,
+    82.24176049232483
+  ],
+  "peak_vram_gb": 2.551403522491455
+}

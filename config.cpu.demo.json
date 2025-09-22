@@ -1,0 +1,17 @@
+{
+  "assets": {
+    "content_dir": "data/content",
+    "style_dir": "data/style"
+  },
+  "phase2_eval": {
+    "finals_globs": [
+      "out/phase2_demo/finals/*.*",
+      "out/phase2B_demo/finals/*.*"
+    ],
+    "tables_dir": "out/phase2_eval/tables",
+    "index_csv": "out/phase2_eval/tables/master_index.csv",
+    "metrics_dir": "out/phase2_eval/metrics",
+    "grids_dir": "out/phase2_eval/grids",
+    "plots_dir": "out/phase2_eval/plots"
+  }
+}

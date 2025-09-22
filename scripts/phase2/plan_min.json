@@ -1,0 +1,22 @@
+{
+  "plans": [
+    {
+      "content": "Still_Life",
+      "style": "Monet",
+      "neighborhood": [
+        {
+          "style_weight": 15000,
+          "tv_weight": 0.002,
+          "edge_w": 0.04,
+          "face_preserve": 0.36
+        },
+        {
+          "style_weight": 25000,
+          "tv_weight": 0.0032,
+          "edge_w": 0.04,
+          "face_preserve": 0.36
+        }
+      ]
+    }
+  ]
+}

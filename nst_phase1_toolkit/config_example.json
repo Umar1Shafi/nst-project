@@ -1,0 +1,12 @@
+{
+  "phase2_dir": "out/phase2",
+  "manifests_dir": "out/phase2/manifests",
+  "finals_dir": "out/phase2/finals",
+  "imgs_dir": "out/phase2/imgs",
+  "logs_dir": "out/phase2/logs",
+  "eval_dir": "out/phase2_eval",
+  "content_root_override": "",
+  "style_root_override": "",
+  "n_per_grid": 12,
+  "default_groupby": "style_weight"
+}
